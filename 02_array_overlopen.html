@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Automerken</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+
+let nummer = prompt("Hoevel merken wil je ingeven?");
+
+let array = [];
+let aantal = nummer;
+
+document.write("<p>U gaf volgende merken in:</p>");
+
+for(let i = 0; i < aantal; i++) {
+	array[i] = prompt(`Geef merk nummer ${i+1} in`);
+	document.write(`${i+1}: ${array[i]}</p>`);
+}
+
+
+
+
+
+</script>
+</body>
+</html>
